@@ -74,7 +74,36 @@ font-family: Azeret Mono;
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 16px;
-    font-weight: 600;
-    margin: 25px 0 35px 0;
-    padding: 13px 10px;   
+    font-weight: 500;
+    padding: 18px 15px; 
+    margin: 25px 0 35px 0; 
+}
+/* start main section */
+#information{
+    width: 1440px;
+    background-color: #FAFAFB;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 8px;
+}
+.section-information{
+    padding-top: 60px;
+}
+.information-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 37px;
+}
+.information-subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    opacity: 0.7;
+    margin-top: 35px;
+ 
 }
