@@ -19,15 +19,15 @@
     font-size: 25px;
 }
 .btn-primary{
-border: 1px solid rgb(13, 19, 33);
-border-radius: 8px;
-opacity: 0.8;
-padding: 12px;
-color: rgb(13, 19, 33);
-font-size: 16px;
-font-weight: 600;
-background-color: #fff;
-font-family: Azeret Mono;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    padding: 12px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    font-family: Azeret Mono;
 }
 .banner{
     background-image: url(../images/Hero-bg.png);
@@ -82,6 +82,7 @@ font-family: Azeret Mono;
     margin: 30px 0 50px 0; 
 }
 /* start main section */
+/* Section one start */
 #information{
     width: 1440px;
     background-color: #FAFAFB;
@@ -145,7 +146,7 @@ font-family: Azeret Mono;
 }
 .box-button{
     margin:0 0 25px 25px;
-    padding: 15px 15px;
+    padding: 15px 25px;
     color: rgb(13, 19, 33);
     font-family: Open Sans;
     font-size: 20px;
@@ -153,6 +154,7 @@ font-family: Azeret Mono;
     line-height: 23px;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    background: #fff;
 }
 .child-box-three{
     width: 50%;
@@ -160,17 +162,19 @@ font-family: Azeret Mono;
     flex-direction: column;
     justify-content: center;
     border-radius: 16px;
-    border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 10%);
+
+    background: linear-gradient(to left, rgb(255, 255, 255),rgba(255, 255, 255, 0) 30%);
     text-align: left
 }
-.section-two
-{
-    max-width: 1440px;
-    margin-top: 70px;
-    margin-left: 200px;
+/* Section two start */
+.section-two{
+    width: 1440px;
+    margin: 0 auto;
 }
-.xtitle{
+.section-two-header{
+    margin-top: 65px;
+}
+.section-two-title{
     text-align: center;
     color: rgb(13, 19, 33);
     font-family: Open sans;
@@ -178,7 +182,7 @@ font-family: Azeret Mono;
     font-weight: 700;
     line-height: 37px;
 }
-.xsubtitle{
+.section-two-subtitle{
     text-align: center;
     color: rgb(13, 19, 33);
     font-family: Open Sans;
@@ -196,21 +200,24 @@ font-family: Azeret Mono;
  iframe{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    padding: 30px;
+    padding: 25px;
  }
- .section-three{
+ /* Section three Start */
+ #section-three{
     width: 1440px;
+    margin: 0 auto;
+ }
+ .section-three-header{
+
     text-align: 
     center;
     margin-top: 70px;
-    margin-left: 200px;
  }
  .catalog{
     width: 1440px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 200px;
     gap: 30px;
     margin-top: 60px;
  }
@@ -246,18 +253,21 @@ font-family: Azeret Mono;
     font-weight: 700;
     line-height: 19px;
 }
-.bgs{
+.background-primary{
     background-color:rgba(0, 76, 232, 0.05);;
 }
-.bgc{
+.bg-primary{
     background-color: rgba(255, 223, 0, 0.05);
 }
+/* Section Four Start */
 .section-four{
     width: 1440px;
+    margin: 0 auto;
+}
+.section-new{
     text-align: 
     center;
     margin-top: 70px;
-    margin-left: 200px;
 }
 .header-target{
     margin-top: 45px;
@@ -293,6 +303,7 @@ font-family: Azeret Mono;
     line-height: 26px;
     margin: 20px 0 20px 0;
 }
+/* Section Five start */
 .second-banner{
     width: 1440px;
     background-image: url(../images/handshake.jpg);
@@ -300,10 +311,10 @@ font-family: Azeret Mono;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
-    padding: 20px;
-    height: 250px;
+    height: 270px;
     border-radius: 10px;
-    margin-top: 100px;
+    margin-top: 45px;
+    padding: 20px 0;
 }
 .banner-class{
 text-align: center;
@@ -314,7 +325,6 @@ font-family: Open sans;
 font-size: 32px;
 font-weight: 700;
 line-height: 36px;
-margin-top: 30px;
 }
 .second-banner-subtitle{
 color: rgb(255, 255, 255);
@@ -333,7 +343,7 @@ input{
     background: rgb(255, 255, 255);
     padding-left: 5px;
 }
-.net-button{
+.next-button{
     padding: 14px 40px;
     margin-left: 10px;
     border: 1px solid rgba(13, 19, 33, 0.15);
@@ -351,7 +361,7 @@ input{
     justify-content: space-around;
     height: 70px;
     background: rgba(13, 19, 33, 0.03);
-    margin-top: 100px;
+    margin-top: 65px;
     align-items: center;
 }
 .footer-icon a{
