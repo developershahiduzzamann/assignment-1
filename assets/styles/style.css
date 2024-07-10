@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -67,6 +69,7 @@ font-family: Azeret Mono;
 .subtitle-block{
     display: block;
     text-align: center;
+    margin-bottom: 40px;
 }
 .banner-button{
     border-radius: 8px;
@@ -76,7 +79,7 @@ font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 500;
     padding: 18px 15px; 
-    margin: 25px 0 35px 0; 
+    margin: 30px 0 50px 0; 
 }
 /* start main section */
 #information{
@@ -86,24 +89,113 @@ font-family: Azeret Mono;
     text-align: center;
     margin-top: 60px;
     border-radius: 8px;
+    padding-bottom: 60px;
 }
 .section-information{
     padding-top: 60px;
 }
 .information-title{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: Open Sans;
     font-size: 38px;
     font-weight: 700;
     line-height: 37px;
 }
 .information-subtitle{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: Open Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 36px;
     opacity: 0.7;
     margin-top: 35px;
- 
 }
+.parent-box{
+    display: flex;
+     justify-content: space-around;
+     margin-top: 70px;
+
+}
+.child-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    text-align: left
+}
+.box-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin:0 0 25px 25px;
+}
+.box-subtitle{
+    color: rgb(13, 19, 33);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.7;
+    margin:0 0 25px 25px;
+}
+.box-button{
+    margin:0 0 25px 25px;
+    padding: 15px 15px;
+    color: rgb(13, 19, 33);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.child-box-three{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 10%);
+    text-align: left
+}
+.section-two
+{
+    width: 1440px;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+.xtitle{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Open sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+}
+.xsubtitle{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+.youtube{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+ }
+ iframe{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 30px;
+ }
+
