@@ -28,6 +28,7 @@
     font-weight: 600;
     background-color: #fff;
     font-family: Azeret Mono;
+    cursor: pointer;
 }
 .banner{
     background-image: url(../images/Hero-bg.png);
@@ -80,6 +81,7 @@
     font-weight: 500;
     padding: 18px 15px; 
     margin: 30px 0 50px 0; 
+    cursor: pointer;
 }
 /* start main section */
 /* Section one start */
@@ -154,6 +156,7 @@
     line-height: 23px;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    cursor: pointer;
     background: #fff;
 }
 .child-box-three{
