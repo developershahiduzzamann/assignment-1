@@ -360,7 +360,7 @@ input{
     cursor: pointer;
 }
 /* Footer Section start */
-.footer{
+#footerButton{
     display: flex;
     justify-content: space-around;
     height: 70px;
@@ -378,3 +378,4 @@ input{
     font-weight: 600;
     line-height: 23px;
 }
+/* End */
